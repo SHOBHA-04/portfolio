@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="pd-title">
+  <title id="pd-title">Green leaf with spots inside scanning brackets</title>
+  <defs>
+    <linearGradient id="pd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff3e7"/>
+      <stop offset="1" stop-color="#fff3d9"/>
+    </linearGradient>
+    <linearGradient id="pd-leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3fb67c"/>
+      <stop offset="1" stop-color="#14744b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#pd-bg)"/>
+
+  <!-- leaf -->
+  <path d="M300 60 C 430 105 465 245 300 340 C 135 245 170 105 300 60 Z" fill="url(#pd-leaf)"/>
+  <g stroke="#0a5c3a" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M300 75 L300 335"/>
+    <path d="M300 140 L360 105"/>
+    <path d="M300 140 L240 105"/>
+    <path d="M300 205 L375 160"/>
+    <path d="M300 205 L225 160"/>
+    <path d="M300 265 L360 230"/>
+    <path d="M300 265 L240 230"/>
+  </g>
+
+  <!-- disease spots -->
+  <circle cx="345" cy="195" r="14" fill="#8a4b00"/>
+  <circle cx="262" cy="250" r="10" fill="#8a4b00"/>
+  <circle cx="330" cy="262" r="7" fill="#8a4b00"/>
+
+  <!-- scan line -->
+  <line x1="130" y1="200" x2="470" y2="200" stroke="#f5a524" stroke-width="4" stroke-dasharray="10 10" opacity=".9"/>
+
+  <!-- scan brackets -->
+  <g fill="none" stroke="#f5a524" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 100 V50 H160"/>
+    <path d="M490 100 V50 H440"/>
+    <path d="M110 300 V350 H160"/>
+    <path d="M490 300 V350 H440"/>
+  </g>
+</svg>

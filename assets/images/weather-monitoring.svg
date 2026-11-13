@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="wm-title">
+  <title id="wm-title">Weather scene with a sun, a cloud, a thermometer and a water drop</title>
+  <defs>
+    <linearGradient id="wm-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfe3f7"/>
+      <stop offset="1" stop-color="#e6f6ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#wm-sky)"/>
+
+  <!-- sun -->
+  <g stroke="#f5a524" stroke-width="8" stroke-linecap="round">
+    <line x1="150" y1="40" x2="150" y2="62"/>
+    <line x1="150" y1="198" x2="150" y2="220"/>
+    <line x1="71" y1="130" x2="93" y2="130"/>
+    <line x1="207" y1="130" x2="229" y2="130"/>
+    <line x1="94" y1="74" x2="110" y2="90"/>
+    <line x1="190" y1="170" x2="206" y2="186"/>
+    <line x1="206" y1="74" x2="190" y2="90"/>
+    <line x1="110" y1="170" x2="94" y2="186"/>
+  </g>
+  <circle cx="150" cy="130" r="42" fill="#f5a524"/>
+
+  <!-- cloud -->
+  <g fill="#ffffff">
+    <circle cx="290" cy="190" r="38"/>
+    <circle cx="340" cy="170" r="48"/>
+    <circle cx="395" cy="195" r="34"/>
+    <rect x="262" y="190" width="160" height="40" rx="20"/>
+  </g>
+
+  <!-- thermometer -->
+  <rect x="478" y="70" width="34" height="170" rx="17" fill="#ffffff" stroke="#0a5c3a" stroke-width="5"/>
+  <rect x="489" y="130" width="12" height="110" rx="6" fill="#e5484d"/>
+  <circle cx="495" cy="258" r="30" fill="#e5484d" stroke="#0a5c3a" stroke-width="5"/>
+  <g stroke="#0a5c3a" stroke-width="4" stroke-linecap="round">
+    <line x1="522" y1="95" x2="540" y2="95"/>
+    <line x1="522" y1="125" x2="534" y2="125"/>
+    <line x1="522" y1="155" x2="540" y2="155"/>
+    <line x1="522" y1="185" x2="534" y2="185"/>
+  </g>
+
+  <!-- water drop -->
+  <path d="M120 255 C 98 285 88 300 88 318 a32 32 0 0 0 64 0 C 152 300 142 285 120 255 z" fill="#2b8fd6"/>
+  <path d="M104 316 a16 16 0 0 0 14 16" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- ground and signal arcs (IoT) -->
+  <rect y="340" width="600" height="60" fill="#0a5c3a"/>
+  <g fill="none" stroke="#f5a524" stroke-width="6" stroke-linecap="round">
+    <path d="M272 372 a40 40 0 0 1 56 0"/>
+    <path d="M258 360 a60 60 0 0 1 84 0"/>
+  </g>
+  <circle cx="300" cy="384" r="6" fill="#f5a524"/>
+</svg>
